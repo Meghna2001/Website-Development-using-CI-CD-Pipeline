@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meghna Dasgupta - Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+<body>
+    <header>
+        <div class="container">
+            <h1>Meghna Dasgupta</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-info">Contact Info</a></li> <!-- Added Contact Info link -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-photo">
+                <img src="image.png" alt="Meghna Dasgupta" />
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am a recent graduate with a Bachelor's of Engineering degree in Information Technology. Throughout
+                    my academic years, I have developed a strong foundation in Python, Excel, Java, MySQL, Data Analysis, AWS Cloud, RDBMS, HTML & CSS, Machine Learning, and Cloud computing. I am a quick learner and always open to
+                    new challenges. I am thrilled to begin my career journey and leverage my technical expertise to
+                    contribute to the ever-evolving world of technology.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Liver Tumor Detection using Deep Learning(2023)</h3>
+                    <p>
+                        In this project we have developed a deep learning model using
+                        ResUnet Algorithm which is used for image segmentation tasks. The model was trained by datasets. The data was then augmented and
+                        the model was trained. Through which then we could identify the region of interest that is the
+                        tumor region.</p>
+                </div>
+                <div class="project">
+                    <h3>Rainfall Detection and deployment using Machine Learning(2022)</h3>
+                    <p>
+                        In this project we have designed a predictive model on the Rain Dataset with the use of Machine learning algorithms to forecast whether it will rain or not tomorrow in a certain region.
+                        In the final step, the Deployment of the Model is done through
+                        Streamlit open source framework and Spyder IDE.</p>
+                </div>
+                <div class="project">
+                    <h3>Chat App using Python (2021)</h3>
+                    <p>
+                        This project is to create a chat application with server and users to
+                        enable the users to chat with others without losing their privacy. Chat application based on computer network concept of socket
+                        programming using python tkinter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Contact Info Section -->
+    <section id="contact-info" class="section">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Feel free to reach out to me via the following platforms:</p>
+            <ul class="contact-info">
+                <li><strong>GitHub:</strong> <a href="https://github.com/Meghna2001" target="_blank">github.com/yourusername</a></li>
+                <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/meghna-dasgupta--579351218" target="_blank">linkedin.com/in/yourusername</a></li>
+                <li><strong>Phone:</strong> +91 9702225564</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meghna Dasgupta. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
